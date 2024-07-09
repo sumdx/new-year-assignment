@@ -1,6 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-
+/* shared style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Merriweather", serif;
+}
+
+/* banner section style */
+.banner-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-top: 20px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('/images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner-content p,h1{
+    color: white;
+    text-align: center;
+}
+
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.banner-content h1{
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* 65% section */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
 }
