@@ -56,7 +56,42 @@ body{
 .second-section-container{
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 90px;
+    display: flex;
+    
+}
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    
+}
+
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.second-section-content img{
+    margin-top: 48px;
+    max-height: 500px;
 }
